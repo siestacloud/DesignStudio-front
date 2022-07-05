@@ -1,0 +1,519 @@
+@media screen and (min-width: 740px) {
+
+    /* меняю  ширину блока в зависимости от ширины дисплея */
+    .content__wrapper {
+        max-width: 1100px;
+    }
+
+    .mod__wrapper {
+        max-width: 684px;
+    }
+
+    /* ============== section 1 in main ================= */
+    .title__row {
+        /* margin: 60px 50px; */
+    }
+
+    /* меняю  ширину контентной части в блоке в зависимости от ширины дисплея */
+    .title__item {
+        flex-basis: 330px;
+    }
+
+    .title__button {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .title__headline {
+        font-size: 25px;
+    }
+
+    .title__text {
+        font-size: 22px;
+    }
+
+    .button {
+        padding: 8px 0px;
+        margin-right: 13px;
+        flex-basis: 200px;
+    }
+
+
+    /* ============== section 2 in main ================= */
+
+    .feature__row {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .feature__info {
+        flex-basis: 45%;
+        text-align: start;
+        padding-right: 15px;
+    }
+
+    /* ============ section 2.1 =========== */
+    .info__leadline {
+        text-align: start;
+    }
+
+
+    /* ============ section 2.2 (hide in phones) =========== */
+    .info__gallery {
+        display: none;
+    }
+
+
+    /* ============ section 2.3 ============*/
+    /* nothing changes */
+
+
+
+    /* ============ section 2.4 (hide in phones) =========== */
+    .info__submenu {
+        display: block;
+        margin: 30px 0px;
+    }
+
+    .submenu__row {
+        display: flex;
+    }
+
+
+
+    /* ============ flex elem in section 2 (hide in phones) =========== */
+    .feature__places {
+        display: block;
+    }
+
+    /* ============ section 2.5 (hide in phones) =========== */
+    .places__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* ============ section 2.6 (hide in phones) =========== */
+
+    .places__img {
+        height: 440px;
+    }
+
+    .img__place {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* ============ part 3 in main =========== */
+    /* ============ section 3.1 =========== */
+
+
+    /* ============ part 4 in main =========== */
+
+    .introduction {
+        margin: auto;
+        max-width: 684px;
+        position: relative;
+    }
+
+    .introduction__position {
+        position: absolute;
+        bottom: -587px;
+    }
+
+    /* ============ section 4.1  ===========  */
+    .introduction__video {
+        height: 400px;
+    }
+
+    /* ============ section 4.2  ===========  */
+    /* nothing */
+    /* ============ section 4.3  ===========  */
+    .introduction__desc {
+        color: #131313;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 169.8%;
+    }
+
+    /* ============ section 4.4 send message to us =========== */
+
+    .subscribe__row {
+        margin: 60px 0px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .subscribe__title {
+        order: 1;
+        flex-basis: 30%;
+        margin: 0px 15px;
+    }
+
+    .checkbox {
+        padding: 35px 0px;
+    }
+
+    .mod__checkbox-order {
+        order: 3;
+    }
+
+    .subscribe__input {
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+    }
+
+    .label-color {
+        color: #131313;
+    }
+
+    .mod-order {
+        flex-basis: 30%;
+        order: 2;
+        margin: 0;
+        position: static;
+        padding: 14px 0px;
+    }
+
+    .mod__center {
+        width: 200px;
+        align-self: center;
+    }
+
+
+    /* ============ white background =========== */
+
+    /* part 5 subtitle */
+
+    /* ============ section 5.1 =========== */
+    .mod__position {
+        padding: 0px;
+        padding-top: 550px;
+    }
+
+    
+
+    .mod__botton {
+        padding-bottom: 200px;
+    }
+
+
+
+
+
+    /*  part 6 vertical  */
+    /* ============ section 6.1 vertical =========== */
+    .vertical__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+
+    }
+    
+
+    .vertical__column {
+        flex-basis: 300px;
+        justify-content: center;
+
+    }
+
+    .vertical__it {
+        flex-basis: 80%;
+        /* margin: 10px; */
+
+    }
+
+
+    .mod__btn {
+        padding: 0px 15px;
+
+        position: relative;
+        top: 22px;
+    }
+
+    .mod-padding {
+        padding: 7px 15px;
+    }
+
+    /* part 7 solutions (hide in phone) */
+
+    /* ============ section 7.1 =========== */
+
+    .solutions {
+        display: block;
+    }
+
+    /* ============ section 7.3 cost  =========== */
+    .cost__row {
+        display: flex;
+
+        justify-content: flex-end;
+    }
+
+    .cost__item {
+        flex-basis: 40%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .cost__caption {
+        color: #131313;
+        width: 180px;
+        color: #E3B873;
+
+    }
+
+
+    /* part 8 fantasies  */
+    /* img background in fantasies   */
+
+    .fantasies {
+        display: block;
+        margin: 90px 0px;
+    }
+
+    .mod__secbackimg {
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-image: url(../../img/i16.png);
+        background-color: rgba(0, 0, 0, 0.726);
+        max-height: 775px;
+    }
+
+
+    /* ============ section 8.1  ===========  */
+    .fantasies__row {
+        margin: 60px px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fanlist__column {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fanlist__item {
+        /* background-color: #13131300; */
+    }
+
+    .fanlist__headline {
+        width: 250px;
+        padding: 35px 0px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        /* font-weight: 550; */
+        font-size: 26px;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+
+
+    .fanlist__desc li {
+        width: 150px;
+        padding: 12px 0px;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    /* ============ section 8.2 column img =========== */
+    .img__column {
+        flex-basis: 27%;
+        /* width: 354px; */
+    }
+
+    .img__place {
+        padding: 15px;
+    }
+
+
+    .mod__botton-position {
+        position: relative;
+        top: -50px;
+    }
+
+    /* ============ section 8.3 column img =========== */
+    .mod__top-position {
+        position: relative;
+        top: -100px;
+    }
+
+    .medium__img {
+        height: 520px;
+    }
+
+    .small__img {
+        height: 349px;
+    }
+
+    /* part 9 subtitle  */
+    /* no new class */
+
+
+    /* part 10 introduction  */
+    /* empty */
+
+
+
+    /* part 11 comments  */
+    /* ============ section 11.1 client =========== */
+    .comments {
+        display: block;
+    }
+
+    .mod__width {
+        flex-basis: 100%;
+    }
+
+    .vertical__client {
+        display: flex;
+        align-items: center;
+    }
+
+    .client__img {
+        width: 45px;
+        border-radius: 50%;
+        margin: 10px 15px 15px 0px;
+    }
+
+    .vertical__t {}
+
+    .button_row {
+        display: flex;
+        align-items: center;
+    }
+
+    .button__item {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .mod__right-border {
+        margin: 0px;
+        padding: 11px 14px 11px 0px;
+        border-right: 1px solid transparent;
+        border-color: #ffffff;
+    }
+
+    .mod__left-border {
+        padding-left: 15px;
+    }
+
+
+
+
+    /* part 12 real  (hide in desktop) */
+    /* ============ section 12.1 info leadline =========== */
+    .real {
+        display: none;
+    }
+
+
+    /* part 13 tower image (hide in phones) */
+    /* ============ section 13.1  ===========  */
+
+    .tower {
+        position: relative;
+        /* display: flex; */
+        height: 320px;
+    }
+
+    .tower__background {
+        display: block;
+        position: relative;
+        z-index: 1;
+        height: 320px;
+        background-color: #ffffffe8;
+    }
+
+    .tower__img {
+        display: block;
+
+        position: absolute;
+        top: 0px;
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .t-sec{
+        right: 1px;
+    }
+
+    /* part 14 address (hide in phones) */
+    /* ============ section 14.1  message ===========  */
+
+
+    .mod__position-relative {
+        position: relative;
+    }
+
+    .message__row {
+        position: absolute;
+        top: -252px;
+        z-index: 2;
+        width: 654px;
+    }
+
+    .message__column {
+        padding: 40px 35px 15px 35px;
+    }
+
+    .mod__backimg-sec {
+        background-image: url(../../img/i22.png);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    /* ============ section 14.2 address (map,text, socials 2 icons) */
+    .address__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ============ section 14.3 map =========== */
+    .map__container {
+        margin-top: 0px;
+        height: 290px;
+        padding-bottom: 40px;
+    }
+
+    .map {
+        order: 3;
+    }
+
+    /* ============ section 14.4 text ============ */
+    .address__box {
+        margin-top: 240px;
+        order: 1;
+    }
+
+    .social {
+        order: 2;
+    }
+
+
+}
+
+@media screen and (min-width: 930px) {
+
+    .content-wrapper {
+        max-width: 1150px;
+    }
+
+}

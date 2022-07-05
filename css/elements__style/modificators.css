@@ -1,0 +1,61 @@
+.mod__horizontal_margin {
+    margin: 0 15px;
+}
+
+.mod__healine_vertical_padding {
+    padding: 20px 0px;
+}
+
+
+.mod__headline {
+    color: #131313;
+}
+
+.mod__margin__botton {
+    margin-bottom: 40px;
+}
+
+.mod__show_desktop{
+    display: none;
+}
+
+
+@media screen and (min-width: 740px) {
+    .mod__horizontal_margin {
+        margin: 0px 60px 0px 60px;
+    }
+
+
+    .mod__vertical-botton {
+        margin-bottom: 120px;
+    }
+   
+
+
+    .mod__left-icon{
+        padding-left: 4px;
+    }
+
+
+    .mod__show_desktop{
+        display: block;
+    }
+}
+
+
+
+
+.mod-yellow {
+    background-color: #E3B873;
+}
+
+.mod-white {
+    border: 1px solid transparent;
+    border-color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.yellow {
+    color: #E3B873;
+}
