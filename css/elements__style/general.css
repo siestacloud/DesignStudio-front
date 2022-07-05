@@ -402,3 +402,12 @@ body {
     color: #fff;
     background-color: #131313;
 }
+
+
+.cost__caption {
+    font-size: 14px;
+    color: #131313;
+    width: 180px;
+    color: #E3B873;
+
+}
