@@ -48,6 +48,15 @@
     .mod__show_desktop{
         display: block;
     }
+
+
+    .mod__img-padding-left{
+        padding: 0px 15px 15px 0px;
+    }
+    .mod__img-padding-right{
+        padding: 0px 0px 15px 0px;
+
+    }
 }
 
 

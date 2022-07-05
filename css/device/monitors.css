@@ -45,6 +45,7 @@
 
     .feature__row {
         display: flex;
+        justify-content: space-between;
         margin-top: 50px;
     }
 
@@ -219,7 +220,7 @@
     
 
     .vertical__column {
-        flex-basis: 300px;
+        flex-basis: 370px;
         justify-content: center;
 
     }
@@ -335,9 +336,9 @@
         /* width: 354px; */
     }
 
-    .img__place {
+    /* .img__place {
         padding: 15px;
-    }
+    } */
 
 
     .mod__botton-position {
