@@ -1,8 +1,12 @@
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 1300px) {
 
+
+    .head__call{
+        flex-basis: 31%;
+    }
     /* меняю  ширину блока в зависимости от ширины дисплея */
     .content__wrapper {
-        max-width: 1100px;
+        max-width: 1400px;
     }
 
     .mod__wrapper {
@@ -10,9 +14,7 @@
     }
 
     /* ============== section 1 in main ================= */
-    .title__row {
-        /* margin: 60px 50px; */
-    }
+   
 
     /* меняю  ширину контентной части в блоке в зависимости от ширины дисплея */
     .title__item {
@@ -301,9 +303,7 @@
         justify-content: center;
     }
 
-    .fanlist__item {
-        /* background-color: #13131300; */
-    }
+    
 
     .fanlist__headline {
         width: 250px;
@@ -389,7 +389,6 @@
         margin: 10px 15px 15px 0px;
     }
 
-    .vertical__t {}
 
     .button_row {
         display: flex;
@@ -509,11 +508,11 @@
 
 
 }
-
+/* 
 @media screen and (min-width: 930px) {
 
     .content-wrapper {
         max-width: 1150px;
     }
 
-}
+} */

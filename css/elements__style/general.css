@@ -9,7 +9,6 @@ body {
 .head__logo {
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
     line-height: 15px;
     text-transform: uppercase;
     color: #E3B873;
@@ -18,7 +17,6 @@ body {
 .head__phone {
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
     line-height: 15px;
     text-align: right;
     color: #FFFFFF;
@@ -143,6 +141,22 @@ body {
 
 
 .mod__hover:hover {
+    color: #E3B873;
+    /* margin-bottom: 2px; */
+    border-color: #E3B873;
+
+}
+
+.mod__hover_solid:hover {
+    color: #E3B873;
+    /* margin-bottom: 2px; */
+    border-bottom: 1px solid transparent;
+    border-color: #E3B873;
+
+}
+
+
+.mod__hover_dashed:hover {
     color: #E3B873;
     /* margin-bottom: 2px; */
     border-bottom: 1px dashed transparent;

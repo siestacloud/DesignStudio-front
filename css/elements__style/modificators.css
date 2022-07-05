@@ -1,3 +1,6 @@
+.mod__horizontal_margin-head {
+    margin: 0 15px;
+}
 .mod__horizontal_margin {
     margin: 0 15px;
 }
@@ -20,7 +23,12 @@
 }
 
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 1300px) {
+    .mod__horizontal_margin-head{
+        margin: 0px 30px 0px 30px;
+
+    }
+
     .mod__horizontal_margin {
         margin: 0px 60px 0px 60px;
     }
